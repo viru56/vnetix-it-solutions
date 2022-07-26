@@ -1,6 +1,6 @@
 import AboutUs from "./components/AboutUs"
 import Banner from "./components/Banner"
-import Contact from "./components/contact"
+import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
 import Testimonials from "./components/Testimonials"
