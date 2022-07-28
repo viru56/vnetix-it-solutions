@@ -1,12 +1,18 @@
 import React, { useState } from 'react'
 import { MailIcon } from '@heroicons/react/outline';
-
+import emailjs from '@emailjs/browser';
+import { MAIL_SERVICE_ID, MAIL_TEMPLATE_ID } from '../config';
 function Mail() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs.send(MAIL_SERVICE_ID,MAIL_TEMPLATE_ID,{
+      from_name: name,
+      from_email: email,
+      message,
+      });
     alert('Thank you for submit your query, we will get back you as soon as posible.');
     setEmail('');
     setName('');
