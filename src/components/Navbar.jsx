@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='w-screen z-10 bg-sky-800 h-16 drop-shadow-lg text-white fixed shadow-xl'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
-        <h1 className='text-2xl font-semibold sm:text-3xl'>Vnetix IT Solutions</h1>
+        <h1 className='text-2xl font-semibold sm:text-3xl'>VNETIX IT Solutions</h1>
         <ul className='hidden md:flex'>
           <li>
             <Link to="home"  smooth={true} offset={0}>
