@@ -3,7 +3,7 @@ import Banner from "./components/Banner"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
-import Testimonials from "./components/Testimonials"
+// import Testimonials from "./components/Testimonials"
 import Mail from './components/Mail'
 import Footer from "./components/Footer"
 import emailjs from '@emailjs/browser';
