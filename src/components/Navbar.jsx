@@ -1,13 +1,14 @@
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { useState } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link, animateScroll as scroll } from 'react-scroll';
+import Logo from '../assets/logo.png';
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav)
   return (
     <div className='w-screen z-10 bg-sky-800 h-16 drop-shadow-lg text-white fixed shadow-xl'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
-        <h1 className='text-2xl font-semibold sm:text-3xl'>Vnetix IT Solutions</h1>
+        <img src={Logo} alt="Vnetix" width="100"/>
         <ul className='hidden md:flex'>
           <li>
             <Link to="home"  smooth={true} offset={0}>

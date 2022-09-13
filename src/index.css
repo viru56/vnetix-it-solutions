@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-family: 'sans-serif';
+  }
   li {
     @apply p-4 cursor-pointer
   }
