@@ -5,7 +5,7 @@ function AboutUs() {
       <h1 className='text-4xl mt-4 font-semibold'>About us</h1>
       <div className='grid md:grid-cols-2  m-auto pb-16 gap-8 py-16'>
         <div className='flex flex-col justify-center md:items-start w-full px-2'>
-        <p className='text-sm max-w-screen-sm'>
+        <p className='text-xl max-w-screen-sm'>
         <span className='text-xl'>VNETIX</span> is a Microsoft partner for software development, leading from the front to offer result-oriented software solutions for businesses. 
         It comes from our experienced team of developers and consultants dealing in solving complex business scenarios. Our team has experience in working projects around the globe and adapting to their local needs. 
         Our goal is to provide clients with end-to-end software development experience, quality assurance, and support solutions based on the latest technologies for developing business software solutions.

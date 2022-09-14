@@ -19,8 +19,8 @@ function Services() {
             <div key={index} className='shadow-md m-4'>
             <div className='flex flex-col justify-around md:items-start w-full p-4'>
               <CogIcon className='w-14' />
-              <p className='text-md max-w-screen-sm font-semibold'>{item.title}</p>
-              <p className='max-w-screen-sm text-sm'>{item.description}</p>
+              <p className='text-xl max-w-screen-sm font-semibold'>{item.title}</p>
+              <p className='max-w-screen-sm'>{item.description}</p>
             </div>
             </div>
           ))
