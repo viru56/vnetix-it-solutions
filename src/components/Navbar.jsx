@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className='w-screen z-10 bg-sky-800 h-16 drop-shadow-lg text-white fixed shadow-xl'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
-        <img src={Logo} alt="Vnetix" width="100"/>
+        <img src={Logo} alt="VNETIX" width="100"/>
         <ul className='hidden md:flex'>
           <li>
             <Link to="home"  smooth={true} offset={0}>
